@@ -1,0 +1,22 @@
+/* beginning  of coloring TrackList */
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+input {
+    visibility:hidden;
+}
+label {
+    cursor: pointer;
+    /*not coloring related -- makes sure the numbers line up vertically*/
+    display: inline-block;
+    width: 20px;
+    /*end of not coloring related*/
+}
+input:checked + label {
+    background: green;
+}
+/* end of coloring TrackList */
