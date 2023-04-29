@@ -20,3 +20,11 @@ input:checked + label {
     background: green;
 }
 /* end of coloring TrackList */
+
+.FlexContainer {
+  display: flex;
+}
+
+.TrackList {
+  width: 500px;
+}
